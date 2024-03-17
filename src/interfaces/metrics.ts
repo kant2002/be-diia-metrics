@@ -1,4 +1,4 @@
-import { ErrorType } from '@diia-inhouse/errors'
+import { ErrorType } from '@kant2002-diia-inhouse/errors'
 
 export enum RequestStatus {
     Successful = 'successful',

@@ -2,7 +2,7 @@ import http from 'http'
 
 import client from 'prom-client'
 
-import { HttpStatusCode, Logger, OnInit } from '@diia-inhouse/types'
+import { HttpStatusCode, Logger, OnInit } from '@kant2002-diia-inhouse/types'
 
 import {
     MetricsConfig,

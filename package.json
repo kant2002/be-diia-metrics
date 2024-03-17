@@ -1,5 +1,5 @@
 {
-    "name": "@diia-inhouse/diia-metrics",
+    "name": "@kant2002-diia-inhouse/diia-metrics",
     "version": "3.6.1",
     "description": "package to export prometheus metrics",
     "main": "dist/index.js",
@@ -34,29 +34,29 @@
         "prom-client": "14.2.0"
     },
     "devDependencies": {
-        "@diia-inhouse/configs": "^1.27.1",
-        "@diia-inhouse/crypto": "^1.7.0",
-        "@diia-inhouse/diia-logger": "^2.9.0",
-        "@diia-inhouse/errors": "^1.5.0",
-        "@diia-inhouse/eslint-config": "^3.5.0",
-        "@diia-inhouse/test": "^5.1.1",
-        "@diia-inhouse/types": "^5.0.1",
-        "@diia-inhouse/utils": "^2.36.0",
+        "@kant2002-diia-inhouse/configs": "^1.27.1",
+        "@kant2002-diia-inhouse/crypto": "^1.7.0",
+        "@kant2002-diia-inhouse/diia-logger": "^2.9.0",
+        "@kant2002-diia-inhouse/errors": "^1.5.0",
+        "@kant2002-diia-inhouse/eslint-config": "^3.5.0",
+        "@kant2002-diia-inhouse/test": "^5.1.1",
+        "@kant2002-diia-inhouse/types": "^5.0.1",
+        "@kant2002-diia-inhouse/utils": "^2.36.0",
         "eslint": "8.53.0",
         "nock": "13.3.1",
-        "type-fest": "4.3.1"
+        "type-fest": "4.12.0"
     },
     "release": {
-        "extends": "@diia-inhouse/configs/dist/semantic-release/package",
+        "extends": "@kant2002-diia-inhouse/configs/dist/semantic-release/package",
         "branches": [
             "main"
         ]
     },
     "commitlint": {
-        "extends": "@diia-inhouse/configs/dist/commitlint"
+        "extends": "@kant2002-diia-inhouse/configs/dist/commitlint"
     },
     "eslintConfig": {
-        "extends": "@diia-inhouse/eslint-config",
+        "extends": "@kant2002-diia-inhouse/eslint-config",
         "overrides": [
             {
                 "files": [
@@ -71,11 +71,11 @@
             }
         ]
     },
-    "prettier": "@diia-inhouse/eslint-config/prettier",
+    "prettier": "@kant2002-diia-inhouse/eslint-config/prettier",
     "madge": {
         "tsConfig": "./tsconfig.json"
     },
     "jest": {
-        "preset": "@diia-inhouse/configs/dist/jest"
+        "preset": "@kant2002-diia-inhouse/configs/dist/jest"
     }
 }

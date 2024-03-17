@@ -1,7 +1,7 @@
 import nock from 'nock'
 
-import { ErrorType } from '@diia-inhouse/errors'
-import { HttpStatusCode } from '@diia-inhouse/types'
+import { ErrorType } from '@kant2002-diia-inhouse/errors'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import { RequestMechanism, RequestStatus, TotalRequestsLabelsMap } from '../../../src'
 import { makeRequest, validateTotalRequestsLabels } from '../../../src/utils'

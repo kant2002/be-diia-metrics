@@ -15,8 +15,8 @@ jest.mock('../../../src/utils/index', () => ({
 
 import * as http from 'http'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { mockInstance } from '@diia-inhouse/test'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
 
 const clientRegisterMock = {
     Counter: jest.fn(),
